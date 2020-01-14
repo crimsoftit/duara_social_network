@@ -1,1 +1,7 @@
 /* Styles go here */
+#account {
+	color: white;
+	font-family: "Century Gothic";
+	font-size: 12px;
+	font-style: italic;
+}

@@ -4110,10 +4110,81 @@
       "links": {},
       "address": "0xdb42310778e2C331fb1E20Ce9DF09Efd16bCaCb7",
       "transactionHash": "0xf94a6e710f5ee5fecfe8aaf11ad7444296858613a8a6e6b32975d8eca530663c"
+    },
+    "1577634745080": {
+      "events": {
+        "0xc66336337a24e513f909b3b25119854dba8385d51307dbc7d31d1b2805e19c7e": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "content",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "tipAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address payable",
+              "name": "author",
+              "type": "address"
+            }
+          ],
+          "name": "PostCreated",
+          "type": "event",
+          "signature": "0xc66336337a24e513f909b3b25119854dba8385d51307dbc7d31d1b2805e19c7e"
+        },
+        "0x20988fe475351e75813672abada1dddb7ac67cbbeb81e61e1160b8329d8cdf1c": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "content",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "tipAmount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "address payable",
+              "name": "author",
+              "type": "address"
+            }
+          ],
+          "name": "PostTipped",
+          "type": "event",
+          "signature": "0x20988fe475351e75813672abada1dddb7ac67cbbeb81e61e1160b8329d8cdf1c"
+        }
+      },
+      "links": {},
+      "address": "0x32b36a87Bcc777E49F0bF07D79684f539B5C4e91",
+      "transactionHash": "0xed3a1e962df627065516865d60fcef5b08dc21548466e94c1e44c6a2bdb25dae"
     }
   },
   "schemaVersion": "3.0.20",
-  "updatedAt": "2019-12-28T02:04:21.105Z",
+  "updatedAt": "2019-12-29T16:05:04.323Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
