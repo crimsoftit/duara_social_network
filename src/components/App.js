@@ -37,7 +37,9 @@ class App extends Component {
 
         // load account
         const accounts = await web3.eth.getAccounts()
+
         //console.log(accounts)
+
         this.setState({ account: accounts[0] })
     }
 
@@ -46,6 +48,7 @@ class App extends Component {
         return (
             <div>
 
+                // display user's account address
                 <Navbar account={ this.state.account } />
 
                 <div className="container-fluid mt-5">
